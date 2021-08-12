@@ -63,6 +63,8 @@ This theme is **NOT** minimal mode compatible.
 
 ## Acknowledgements
 
+* Thanks and Credit to [Gibbu](https://github.com/Gibbu) the creator of the original HorizontalServerList and other themes for providing all of us his projects, again all credit goes to Gibbu for his amazing work, even so I updated it adding my own code on it, so go check out Gibbu and his work. (Base of this theme being: https://github.com/DiscordStyles/HorizontalServerList)
+
 * Thanks to [puckzxz](https://github.com/puckzxz) the creator of the original NAAT for letting me work in this project with himn!
 
 * Thanks to [V-X](https://github.com/ImVexed) for creating and hosting the CDN that NotAnotherAnimeTheme uses.
