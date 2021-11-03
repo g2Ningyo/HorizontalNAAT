@@ -1,9 +1,5 @@
 /*Credit Goes to https://github.com/Gibbu for creating the original HorizontalSerList Theme that was used as Source code for this code and theme*/
 
-.tutorialContainer-2sGCg9{
-    margin-top: 78px;
-    margin-bottom: 93px;
-}
 
 #app-mount .app-1q1i1E .base-3dtUhz {
   top: var(--server-container) !important;
@@ -63,7 +59,7 @@
   height: var(--server-size);
   width: 4px;
   top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
-  margin-left: -1px;
+  margin-left: -2px;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span {
   height: 100% !important;
@@ -71,7 +67,6 @@
   transform: scale(0, 1) !important;
   transition: 0.15s ease !important;
   margin-left: 0;
-  margin-top: 3px;
   border-radius: 0 4px 4px 0;
 }
 #app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 0"] {
@@ -198,13 +193,11 @@
   transform: scale(1, 1) !important;
 }
 #app-mount .guilds-1SWlCJ .wrapper-sa6paO {
-  height: /*var(--server-size)*/ 50px !important;
+  height: var(--server-size) !important;
 }
 #app-mount .guilds-1SWlCJ .wrapper-21YSNc,
 #app-mount .guilds-1SWlCJ .wrapper-3Njo_c {
   width: var(--server-container);
-  transform: translateX(-10px);
-}
 }
 #app-mount .guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
   width: var(--server-size);
@@ -214,13 +207,12 @@
 }
 #app-mount .guilds-1SWlCJ [class*=guildSeparator] {
   transform: rotate(90deg);
-  width: 0px;
-  margin-top: 0px;
+  width: var(--server-size);
 }
 #app-mount .guilds-1SWlCJ [class*=expandedFolderBackground] {
   width: var(--server-size);
   left: 50%;
-  border-radius: 50px;
+  border-radius: 10px;
   transform: translateX(-50%);
 }
 #app-mount .guilds-1SWlCJ .folder-21wGz3 {
@@ -247,7 +239,7 @@
   position: absolute;
   transform: translate(-50%, 50%);
   top: calc(-50% + var(--server-spacing));
-  left: calc(-50%);
+  left: -50%;
   width: calc(var(--server-size) + var(--server-spacing));
   display: flex;
   justify-content: center;
