@@ -201,8 +201,7 @@
   height: /*var(--server-size)*/ 50px !important;
 }
 #app-mount .guilds-1SWlCJ .wrapper-21YSNc,
-#app-mount .guilds-1SWlCJ .wrapper-3Njo_c, 
-#app-mount .folder-2w6LX1, .folderIconWrapper-1Ml_1q {
+#app-mount .guilds-1SWlCJ .wrapper-3Njo_c }
   width: var(--server-container);
   transform: translateX(-10px);
 }
