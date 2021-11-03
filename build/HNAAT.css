@@ -203,7 +203,6 @@
 #app-mount .guilds-1SWlCJ .wrapper-21YSNc,
 #app-mount .guilds-1SWlCJ .wrapper-3Njo_c }
   width: var(--server-container);
-  transform: translateX(-10px);
 }
 #app-mount .guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
   width: var(--server-size);
